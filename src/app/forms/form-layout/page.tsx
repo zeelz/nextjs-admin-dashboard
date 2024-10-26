@@ -73,7 +73,10 @@ const FormLayout = () => {
                   />
                 </div>
 
-                <SelectGroupOne />
+                <SelectGroupOne
+                  label="Selector"
+                  selectValues={["option 1", "option 2", "option 3"]}
+                />
 
                 <div className="mb-6">
                   <label className="mb-3 block text-sm font-medium text-black dark:text-white">
